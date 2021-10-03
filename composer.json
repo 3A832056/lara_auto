@@ -1,0 +1,16 @@
+{
+    "name": "ncut/lara_auto",
+    "description": "work3",
+    "autoload": {
+        "psr-4": {
+            "Ncut\\LaraAuto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shen pei ru",
+            "email": "3a832056@gm.student.ncut.edu.tw"
+        }
+    ],
+    "require": {}
+}
