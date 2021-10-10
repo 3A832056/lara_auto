@@ -57,8 +57,8 @@ if (Carbon::now()->isWeekend()) {
 // Over 200 languages (and over 500 regional variants) supported:
 echo Carbon::now()->subMinutes(2)->diffForHumans(); // '2 minutes ago'
 echo Carbon::now()->subMinutes(2)->locale('zh_CN')->diffForHumans(); // '2分钟前'
-echo Carbon::parse('2019-07-23 14:51')->isoFormat('LLLL'); // 'Tuesday, July 23, 2019 2:51 PM'
-echo Carbon::parse('2019-07-23 14:51')->locale('fr_FR')->isoFormat('LLLL'); // 'mardi 23 juillet 2019 14:51'
+echo Carbon::parse('2021-10-10 19:52')->isoFormat('LLLL'); // 'Tuesday, July 23, 2019 2:51 PM'
+echo Carbon::parse('2021-10-10 19:52')->locale('fr_FR')->isoFormat('LLLL'); // 'mardi 23 juillet 2019 14:51'
 
 // ... but also does 'from now', 'after' and 'before'
 // rolling up to seconds, minutes, hours, days, months, years
